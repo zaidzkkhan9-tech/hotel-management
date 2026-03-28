@@ -1,0 +1,106 @@
+. Introduction
+1.1 Purpose
+
+The purpose of this document is to describe the requirements for the School Management System. The system will help manage student data, staff, attendance, exams, fees, and communication efficiently.
+
+1.2 Scope
+
+The School Management System is a web-based (or desktop/mobile) application that:
+
+Stores student and staff information
+Manages attendance and academic records
+Handles fee payments
+Provides reports and analytics
+Enables communication between teachers, students, and parents
+1.3 Definitions, Acronyms, Abbreviations
+SMS: School Management System
+Admin: Administrator
+UI: User Interface
+DB: Database
+2. Overall Description
+2.1 Product Perspective
+
+The system is standalone but may integrate with:
+
+Payment gateways
+Email/SMS services
+Learning Management Systems (optional)
+2.2 Product Functions
+
+Main features include:
+
+Student Management
+Teacher Management
+Attendance Tracking
+Exam & Result Management
+Fee Management
+Timetable Scheduling
+Reports Generation
+2.3 User Classes and Characteristics
+Admin: Full access to system
+Teacher: Manage classes, attendance, marks
+Student: View records, timetable
+Parent: Monitor student progress
+2.4 Operating Environment
+Web browser (Chrome, Edge, Firefox)
+Windows/Linux/Mac or mobile devices
+Backend server with database (MySQL, PostgreSQL)
+2.5 Design Constraints
+Must be secure (authentication required)
+Must handle multiple users simultaneously
+Should follow data privacy regulations
+2.6 Assumptions and Dependencies
+Internet connection required
+Users have basic digital literacy
+Database server is available
+3. System Features
+3.1 User Authentication
+Login/Logout functionality
+Role-based access control
+
+Functional Requirements:
+
+Users must log in with username and password
+System should allow password reset
+3.2 Student Management
+Add, update, delete student records
+Assign students to classes
+
+Functional Requirements:
+
+Admin can register new students
+System stores personal and academic details
+3.3 Teacher Management
+Manage teacher profiles
+Assign subjects and classes
+3.4 Attendance Management
+Record daily attendance
+Generate attendance reports
+3.5 Examination & Results
+Create exams
+Enter marks
+Generate report cards
+3.6 Fee Management
+Track fee payments
+Generate receipts
+Send reminders
+3.7 Timetable Management
+Create class schedules
+Assign teachers and rooms
+3.8 Reports
+Student performance reports
+Attendance summaries
+Financial reports
+4. External Interface Requirements
+4.1 User Interfaces
+Simple and user-friendly dashboard
+Forms for data entry
+Graphs and charts for reports
+4.2 Hardware Interfaces
+Server system
+User devices (PCs, smartphones)
+4.3 Software Interfaces
+Database (MySQL/PostgreSQL)
+Payment gateway APIs (optional)
+4.4 Communication Interfaces
+Email/SMS notifications
